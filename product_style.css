@@ -162,22 +162,19 @@ span{
 }
 .product-left{
     /* margin-top: 15px; */
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 290px;
     width: 510px;
     border: 1px solid #222f3d;
 }
 
 
-.product.img{
+.product-img img{
     display: flex;
-    justify-content: space-between;
-    height: 200px;
-    width: 270px;
-    background-size: cover;
-    /* margin-top: 1rem;
-    margin-bottom: 1rem; */
-    
+    justify-content: center;
+    height: 290px;
+    width: 100%;
+    object-fit: contain;
 }
 
 .product-right{
