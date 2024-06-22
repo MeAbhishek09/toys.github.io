@@ -5,6 +5,12 @@ font-family: Arial, Helvetica, sans-serif;
 border: border-box;
 }
 
+header{
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
 .border{
     border: 1.5px solid transparent;
 }
@@ -151,14 +157,14 @@ span{
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: space-evenly;
-    /* align-items: center; */
+    align-items: center;
     /* background-color: blue; */
 }
 .product-left{
-    margin-top: 15px;
+    /* margin-top: 15px; */
     background-color: aqua;
-    height: 270px;
-    width: 500px;
+    height: 290px;
+    width: 510px;
     border: 1px solid #222f3d;
 }
 
@@ -176,16 +182,16 @@ span{
 
 .product-right{
 
-    margin-top: 15px;
+    /* margin-top: 15px; */
     background-color: white;
-    height: 270px;
-    width: 730px;
+    height: 290px;
+    width: 740px;
     display: flex;
     border: 1px solid #222f3d;
     
 }
 
-ul{
+.product-right ul{
     display: block;
     /* font-size: 0.9rem; */
     margin-top: 10px;
@@ -267,7 +273,7 @@ margin-top: 10px;
 color: #dddddd;
 }
 
-ul{
+.foot-panel2 ul{
     margin-top: 20px;
 }
 

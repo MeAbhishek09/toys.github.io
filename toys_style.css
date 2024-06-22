@@ -6,6 +6,12 @@
     border: border-box;
 }
 
+header{
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
 .border{
     border: 1.5px solid transparent;
 }
