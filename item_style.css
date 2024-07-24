@@ -78,6 +78,7 @@
         border-top-left-radius: 4px;
         border-bottom-left-radius: 4px;
         border: none;
+        outline: none;
     }
     
     
@@ -166,10 +167,10 @@
     margin-top: 40px;
     height: 500px;
     width: 500px;
-    /* background-color: aqua; */
     position: sticky;
     top: 100px;
     border: 1px solid #222f3d;
+    /* position: absolut; */
 }
 
 .item-img img{
@@ -178,7 +179,7 @@
     height: 500px;
     width: 100%;
     object-fit: contain;
-    mix-blend-mode: color-burn;
+    /* mix-blend-mode: color-burn; */
 }
 
 .item-right{

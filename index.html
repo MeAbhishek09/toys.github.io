@@ -11,20 +11,13 @@
     <header>
 <!-- logo of wbsite -->
 
-    <div class ="navbar">
+    <div class ="navbar" >
        <div class="nav-logo border ">
         <div class="logo">
-            <p>Sacchitoys.in</p>
+            <p id="top">Sacchitoys.in</p>
         </div>
        </div>
 
-       <!-- <div class="new-addres border">
-        <p class="add-fist">delever to</p>
-        <div class="add-icon">
-            <i class="fa-solid fa-location"></i>
-            <p class="add-sec">India</p>
-        </div>
-       </div> -->
 
        <!-- search bar -->
 
@@ -41,7 +34,7 @@
 <!-- address> -->
 
        <div class="new-addres border picture">
-        <p class="add-fist">delever to</p>
+        <p class="add-fist">deliver to</p>
         <div class="add-icon">
             <i class="fa-solid fa-location"></i>
             <p class="add-sec">India</p>
@@ -49,7 +42,7 @@
        </div>
 
        <div class="nav-singin border">
-        <p><span>Hello,Sign in</span></p>
+        <p><span><a href="login.html">Hello,Sign in</a></span></p>
             <select class="nav-sec">
                 <option>Account & list</option>
             </select>
@@ -75,8 +68,8 @@
         </div>
 
         <div class="pannel-ops">
-            <p>Todey's Deals</p>
-            <p>Cusrumer srevice</p>
+            <p>Today's Deals</p>
+            <p>Consumer srevice</p>
             <p>Registry</p>
             <p>Gift Cards</p>
             <p>Offers</p>
@@ -91,13 +84,24 @@
     </div>
     </header>
 
+    <div class="hero-msg">
+        <p>India's best soft toy manufacturing company <a>Sacchitoys.in</a></p>
+    </div>
+
     <div class="hero-section">
-       <!-- <img src="hero_images(pikachu).jpeg" class="pikachu picture">
-        <img src="hero_images(horse).jpeg" class="horse picture">
-        <img src="hero_images(parrot).jpeg" class="parrot picture"> -->
-        <div class="hero-msg">
-            <p>India's best soft toy manufacturing company<a> Sacchitoys.in</a></p>
+        <button id="prev-slid" class="slid-button"><i class="fa-solid fa-arrow-right"></i></button>
+        <div class="hero-img">
+            <div class="slide1"><img src="hero-background-emage.jpeg.png">
+            </div>
+            <img src="hero-background-emage.jpeg.png">
+            <img src="hero-background-emage.jpeg.png">
+            <img src="hero-background-emage.jpeg.png">
+            <!-- <img src="hero-images(doll).jpeg.jpeg">
+            <img src="hero-images(doll).jpeg.jpeg">
+            <img src="hero-images(doll).jpeg.jpeg">
+            <img src="hero-images(doll).jpeg.jpeg"> -->
         </div>
+        <button id="next-slid" class="slid-button"><i class="fa-solid fa-arrow-left"></i></button>
     </div>
 
     <div class="shopping-sec">
@@ -106,7 +110,7 @@
            <div class="box-contant">
             <h2>Kid's Favorate</h2>
             <div class="box-img" style="background-image: url('hero_images\(pikachu\).jpeg');"></div>
-            <p>See More</p>
+            <p><a href="product.html">See More</a></p>
            </div>
         </div>
 
@@ -114,7 +118,7 @@
             <div class="box-contant">
                 <h2>Dolls</h2>
                 <div class="box-img" style="background-image: url('hero-images\(doll\).jpeg.jpeg');"></div>
-                <p>See More</p>
+                <p><a href="product.html">See More</a>/p>
                </div>
         </div>
 
@@ -122,7 +126,7 @@
              <div class="box-contant">
             <h2>Home Decoration</h2>
             <div class="box-img" style="background-image: url('hero_images\(horse\).jpeg');"></div>
-            <p>See More</p>
+            <p><a href="product.html">See More</a></p>
            </div>
         </div>
 
@@ -130,7 +134,7 @@
             <div class="box-contant">
                 <h2>Only For You</h2>
                 <div class="box-img" style="background-image: url('hero_images\(parrot\).jpeg');"></div>
-                <p>See More</p>
+                <p><a href="product.html">See More</a></p>
                </div>
         </div>
 
@@ -138,7 +142,7 @@
             <div class="box-contant">
              <h2>Best Deals</h2>
              <div class="box-img" style="background-image: url('hero_images\(pikachu\).jpeg');"></div>
-             <p>See More</p>
+             <p><a href="product.html">See More</a></p>
             </div>
          </div>
  
@@ -146,7 +150,7 @@
              <div class="box-contant">
                  <h2>Gifts Items</h2>
                  <div class="box-img" style="background-image: url('hero-images\(doll\).jpeg.jpeg');"></div>
-                 <p>See More</p>
+                 <p><a href="product.html">See More</a></p>
                 </div>
          </div>
  
@@ -154,7 +158,7 @@
               <div class="box-contant">
              <h2>Shop For primium</h2>
              <div class="box-img" style="background-image: url('hero_images\(horse\).jpeg');"></div>
-             <p>See More</p>
+             <p><a href="product.html">See More</a></p>
             </div>
          </div>
  
@@ -162,7 +166,7 @@
              <div class="box-contant">
                  <h2>Keep Shoping</h2>
                  <div class="box-img" style="background-image: url('hero_images\(parrot\).jpeg');"></div>
-                 <p>See More</p>
+                 <p><a href="product.html">See More</a></p>
                 </div>
          </div>
        
@@ -173,7 +177,7 @@
     <footer>
 <!-- pannel 1 -->
         <div class="foot-panel1">
-           <a href="#">Back To Top</a> 
+           <a href="#top">Back To Top</a> 
         </div>
 
 <!-- pannel 2 -->
@@ -231,6 +235,7 @@
                </div>
             
      </footer>
+     <script src="index_script.js"></script>
 </body>
 </html>
 
